@@ -32,14 +32,14 @@ print("The factorial of 4 is:", result)
 
 # Even number generating
 
-def generate_even_numbers(n):
+def even_numbers(n):
    
-    even_numbers = [i for i in range(0, n+1, 2)]
-    return even_numbers
+    even_num = [i for i in range(0, n+1, 2)]
+    return even_num
 
 
-even_numbers = generate_even_numbers(100)
-print(even_numbers)
+even_num = even_numbers(100)
+print(even_num)
 
 i = 0
 while i<=100:
@@ -51,3 +51,34 @@ while i<=100:
         
     else:
         print(i)
+
+    
+    # i = 0
+    # while i<=500:
+    #     i = i+1
+    #     if i==100:
+    #         break
+    #     if i%3==0 or i%5==0:
+    #         continue
+a = "I am superman and  completing quest is my task."
+i = 0 
+len(a)
+# while i<len(a):
+#     print(a[i])
+#     i = i+1
+ 
+while i<len(a):
+    if  a[i]=="q":
+        break
+    if a[i].lower() not in "aeiou":
+        i+=1
+        continue
+    print(a[i])
+    i+=1
+
+
+
+
+
+
+        
