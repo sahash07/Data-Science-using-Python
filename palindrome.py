@@ -76,9 +76,19 @@ while i<len(a):
     print(a[i])
     i+=1
 
+# hello I am sahash Rai and i am trying to add push the files into git hub
+a = "Functions "
+len(a)
+i = 0
+while i<len(a):
+    i += 1
+    if a([i]).lower() == t:
+        break
 
 
 
 
 
-        
+
+
+
